@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingTop="70dp"
+    android:paddingBottom="130dp"
+    tools:context=".presentation.home.fragments.ItemFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:shadowColor="@color/cardview_dark_background"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/icons_search"
+            android:hint="Поиск..">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/recycler_change_grid_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icons_horizontal_grid">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/filter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icons_filter">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_card"
+        android:layout_marginTop="60dp"
+        android:clipToPadding="false">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

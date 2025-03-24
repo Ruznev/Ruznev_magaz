@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ruznev_magaz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
+        <item name="colorPrimary">@color/soft_green</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Base.Theme.Ruznev_magaz." parent="Base.Theme.Ruznev_magaz" />
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen_logo</item>
+
+        <item name="postSplashScreenTheme">@style/Base.Theme.Ruznev_magaz</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="soft_green">#e2ab</color>
+    <color name="background_color">#201E25</color>
+    <color name="text_color_white">#fdfdfd</color>
+    <color name="text_color_hint">#6a6a6a</color>
+    <color name="splash_background">#e2ab</color>
+    <color name="profile_button_color">#85929e</color>
+    <color name="icon_background">#6a6a6a</color>
+</resources>

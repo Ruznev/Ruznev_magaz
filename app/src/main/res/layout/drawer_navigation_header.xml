@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:orientation="vertical"
+    android:background="@color/soft_green"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/drawer_header_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icons_default_avatar"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/drawer_header_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя пользователя"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/drawer_header_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваша@почта.ру"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

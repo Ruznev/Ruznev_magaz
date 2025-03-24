@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">First_Lessons</string>
+    <string name="account_create_label">Создать аккаунт</string>
+    <string name="user_login_text">Введите логин</string>
+    <string name="user_email_text">Введите email</string>
+    <string name="user_password_text">Введите пароль</string>
+    <string name="button_reg_text">Регистрация</string>
+    <string name="main_logo_text_to_speach">Основное лого приложения</string>
+    <string name="authorization">Авторизация</string>
+    <string name="log_in">Войти</string>
+    <string name="create_user_text"><u>Создать пользователя</u></string>
+    <string name="first_time_text">Вы у нас впервые?</string>
+    <string name="forget_password_text">Забыли пароль?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="in_progress_message">В разработке</string>
+    <string name="test_long_text"></string>
+    <string name="test_title_text">I\'m title</string>
+</resources>
+
+
+
+
+
+
